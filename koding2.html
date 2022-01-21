@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>  koding </title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <div>
+        <!-- Menu website -->
+        <a href="Koding1.html">HOme</a>
+        <a href="Koding2.html">Home2</a>
+    </div>
+
+    <!-- bagian awal, isinya tag heading -->
+
+    <div>
+        <h1> Sekolah koding </h1>
+        <h2> tutorial online untuk belajar <span> membuat website</span> </h2>
+    </div>
+
+
+    <!-- membuat form -->
+    <form>
+        <fieldset>
+            <legend> Nama dan Pesan </legend>
+        <label for="Nama_user">Nama</label>
+        <input type="text" placeholder="Nama User" value="Nama Anda" id="Nama_user">
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend> Pilihan Data </legend>
+        <label for="pesan_user">Pesan</label>
+        <textarea cols="100" rows="7" id="pesan_user"> Pesan saya adalah... </textarea>
+        <br>
+        <label>Hobi</label><br>
+        <input type="checkbox" name="hobi_user" value="0"> menggambar
+        <input type="checkbox" name="hobi_user" value="1" checked> Menulis
+        <input type="checkbox" name="hobi_user" value="2"> Menyanyi
+        <br>
+        <label> Jenis Kelamin</label><br>
+        <input type="radio" name="gender" value="0" checked>Laki-laki
+        <input type="radio" name="gender" value="1"> perempuan
+        <br>
+        <label>Pelajaran</label>
+        <select>
+            <optgroup label="Fronted">
+                <option value="html">HTML</option>
+                <option value="css">css</option>
+            </optgroup>
+            
+            <optgroup label="Backend"> <option value="js">php</option>
+                <option value="db">database</option>
+                </optgroup>
+        </select>
+        </fieldset>
+        <br>
+        <input type="submit" value="Kirim Data">
+    </form>
+
+    <br><br>
+    <table border="1">
+        <caption> daftar murid sekolah koding </caption>
+        <tr>
+            <th>Nama Murid</th>
+            <th>Kota asal</th>
+        </tr>
+        <tr>
+            <td>Hilman</td>
+            <td>Makassar</td>
+        </tr>
+        <tr>
+            <td>Endy</td>
+            <td>Pangkep</td>
+        </tr>
+    </table>
+
+    <!-- list pada html -->
+    <ul>
+        <li>Hilman</li>
+        <li>Endy</li>
+    </ul>
+
+    <ol>
+        <li>Hilman</li>
+        <li>Endy</li>
+    </ol>
+
+    <dl>
+        <dt>Hilman</dt>
+        <dd>User pertama sekolah koding</dd>
+        <dt>Endy</dt>
+        <dd>User Kedua sekolah koding</dd>
+    </dl>
+
+    <p>
+        &copy; Sekolah koding
+    </p>
+
+</body>
+</html>
